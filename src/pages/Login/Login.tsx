@@ -13,7 +13,7 @@ const Login: React.FC = () => {
           <h1>
             Bem-vinde de volta
           </h1>
-          <h2>
+          <h2>k
             Use suas credenciais abaixo para logar em nosso sistema.
           </h2>
           <div className="field-input">
