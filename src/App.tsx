@@ -1,10 +1,10 @@
 import React from 'react';
-import Login from './pages/Login'
+import Admin from './pages/admin/admin'
 import './styles/styles.scss'
 
 const App: React.FC = () => {
   return (
-    <Login />
+    <Admin />
   );
 }
 
