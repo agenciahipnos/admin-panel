@@ -20,7 +20,7 @@ const Dashboard: React.FC = () => {
           </div>
           <div className="icon">
             <FaNewspaper />
-          </div>
+          </div> 
         </div> 
         <div className="counting"> 
           <div className="info"> 
