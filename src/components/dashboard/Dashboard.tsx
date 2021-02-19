@@ -22,7 +22,7 @@ const Dashboard: React.FC = () => {
             <FaNewspaper />
           </div>
         </div>
-        <div className="counting">
+        <div className="counting"> 
           <div className="info">
             <h2>
               30
