@@ -1,3 +1,42 @@
 .dashboard {
-  padding: 2rem;
+  padding: 2rem 3rem;
+  h1 {
+    margin-bottom: 3rem;
+  }
+  .section-counting {
+    display: flex;
+    justify-content: space-between;
+    .counting {
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 3px 3px 14px -2px rgba(0, 0, 0, 0.1);
+      border-bottom: 2px solid #ddd;
+      border-right: 2px solid #ddd;
+      width: 30%;
+      padding: 3rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      .info {
+        h2 {
+          font-size: 3.6rem;
+          margin-bottom: 0.4rem;
+          color: #ff9d00;
+        }
+        .text {
+          color: rgb(167, 167, 167);
+        }
+      }
+      .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: #ff9d0048;
+        color: #ff9d00;
+        font-size: 2rem;
+      }
+    }
+  }
 }
