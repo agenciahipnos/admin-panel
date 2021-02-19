@@ -23,7 +23,7 @@ const Dashboard: React.FC = () => {
           </div>
         </div>
         <div className="counting"> 
-          <div className="info">
+          <div className="info"> 
             <h2>
               30
             </h2>
