@@ -208,7 +208,7 @@ const LeftBar: React.FC = () => {
           <div className="right-arrow">
             <RightArrow />
           </div>
-        </li>
+        </li> 
       </ul>
     </div>
   )
