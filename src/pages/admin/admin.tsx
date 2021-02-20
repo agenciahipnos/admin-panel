@@ -5,7 +5,7 @@ import './styles.scss'
 
 const Admin: React.FC = () => {
   return (
-    <div className="wrapper">
+    <div className="wrapper"> 
       <div className="content-body">
         <div className="left-side">
           <LeftBar />
