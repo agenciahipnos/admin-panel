@@ -10,6 +10,9 @@ const Dashboard: React.FC = () => {
       </h1>
       <div className="section-counting">
         <div className="counting">
+          <div className="icon">
+            <FaNewspaper />
+          </div> 
           <div className="info">
             <h2>
               30
@@ -18,11 +21,11 @@ const Dashboard: React.FC = () => {
               Notícias Cadastradas
             </div>
           </div>
-          <div className="icon">
-            <FaNewspaper />
-          </div>   
         </div> 
         <div className="counting"> 
+          <div className="icon">
+            <FaNewspaper />
+          </div>
           <div className="info"> 
             <h2>
               30
@@ -31,11 +34,11 @@ const Dashboard: React.FC = () => {
               Notícias Cadastradas
             </div>
           </div>
+        </div>
+        <div className="counting">
           <div className="icon">
             <FaNewspaper />
           </div>
-        </div>
-        <div className="counting">
           <div className="info">
             <h2>
               30
@@ -43,9 +46,6 @@ const Dashboard: React.FC = () => {
             <div className="text">
               Notícias Cadastradas
             </div>
-          </div>
-          <div className="icon">
-            <FaNewspaper />
           </div>
         </div>
       </div>
