@@ -32,7 +32,7 @@ const Dashboard: React.FC = () => {
           <div className="info"> 
             <h2>
               30
-            </h2>
+            </h2> 
             <div className="text">
               Notícias Cadastradas
             </div>
@@ -42,7 +42,7 @@ const Dashboard: React.FC = () => {
           <div className="icon">
             <FaNewspaper />
           </div> 
-          <div className="info">
+          <div className="info"> 
             <h2>
               30
             </h2>
