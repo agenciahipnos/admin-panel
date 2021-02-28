@@ -1,0 +1,126 @@
+.leftBarContainer {
+  position: relative;
+  height: 100%;
+  padding: 3rem 2rem;
+  border-radius: 20px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scroll-margin: 50px 0px 50px 0px; 
+}
+
+.leftBarContainer::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.leftBarContainer::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+.leftBarContainer::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.01);
+}
+
+.leftBarContainer .logo {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.leftBarContainer .logo img {
+  width: 140px;
+}
+
+.leftBarContainer .person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+}
+
+.leftBarContainer .person .info {
+  display: flex;
+  align-items: center;
+}
+
+.leftBarContainer .person .info .avatar {
+  display: flex;
+  margin-right: 1.4rem;
+}
+
+.leftBarContainer .person .info .avatar img {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.leftBarContainer .person .info .title .name {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+  font-size: 1.1rem;
+  line-height: 1.1rem;
+  margin-bottom: 0.2rem;
+  color: #fff;
+  opacity: 0.9;
+} 
+  
+.leftBarContainer .person .info .title .cargo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600; 
+  color: #ff9d00;
+  text-transform: uppercase;
+}
+
+.leftBarContainer .person .down-arrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #ff9d00;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.leftBarContainer ul.menu li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.leftBarContainer ul.menu li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.leftBarContainer ul.menu li .info {
+  display: flex;
+  align-items: center;
+}
+
+.leftBarContainer ul.menu li .info .icon {
+  display: flex;
+  margin-right: 1.6rem;
+  color: #fff;
+  opacity: 0.8;
+  font-size: 1.6rem;
+}
+
+.leftBarContainer ul.menu li .info .title {
+  font-size: 1.05rem;
+  color: #fff;
+  opacity: 0.8;
+}
+
+.leftBarContainer ul.menu li .right-arrow {
+  display: flex;
+  color: #fff;
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
