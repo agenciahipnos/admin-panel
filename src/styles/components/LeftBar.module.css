@@ -11,7 +11,7 @@
 .leftBarContainer::-webkit-scrollbar-track {
   border-radius: 10px;
   background-color: transparent;
-}
+} 
 
 .leftBarContainer::-webkit-scrollbar {
   width: 8px;
