@@ -5,7 +5,7 @@ import styles from '../styles/pages/Login.module.css'
 
 const Login: React.FC = () => {
   return (
-    <section className={styles.loginContainer}> 
+    <section className={styles.loginContainer}>  
       <div className="box-login">
         <div className="logo">
           <img src="/assets/img/logo/logo.png" alt="Logo Agência Hipnos"/>
