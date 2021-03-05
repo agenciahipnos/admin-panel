@@ -4,7 +4,7 @@ import LeftBar from '../components/LeftBar'
 
 import styles from '../styles/pages/Dashboard.module.css'
 
-const Dashboard: React.FC = () => { 
+const Dashboard: React.FC = () => {  
   return (
     <div className={styles.dashboardContainer}> 
       <div className="content-body">
